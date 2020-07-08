@@ -1,0 +1,113 @@
+import java.util.*;
+public class online_quiz
+{
+  public static void main(String args[])
+  {
+    Scanner in= new Scanner(System.in);
+    System.out.println("HELLO!! Welcome to the online IQ Quiz.");
+    System.out.println("So here I will ask you 10 questions and you have to choose the right option.");
+    System.out.print("Enter your full name =>>>");
+    String n= in.nextLine();
+    System.out.println("Enter 1 to play the quiz.");
+    System.out.println("Enter 2 to exit the game.");
+    System.out.print("Enter your choice =>>>");
+    int ch= in.nextInt();
+    if(ch==1)
+    {
+      System.out.println("Okay, you chose to play the game.");
+      System.out.println("SO, ARE YOU READY?");
+      System.out.print("Enter YES if you're ready:");
+      String ee= in.next();
+      System.out.println("LET'S BEGIN!! YAYYYY!!!");
+      System.out.println("=======================================");
+      System.out.println("Q1.When does method overloading is determined?");
+      System.out.println("1.At compile time .");
+      System.out.println("2. At run time  ");
+      System.out.print("Your Option >>>");
+      int ca= in.nextInt();
+      System.out.println("============================================================");
+      if(ca==1)
+      {
+        System.out.println("CONGRATULATIONS!! YOUR ANSWER IS CORRECT.");
+        System.out.println("==========================================");
+      }
+      else
+      {
+        System.out.println("UNFORTUNATELY YOUR ANSWER IS INCORRECT.");
+        System.out.println("==========================================");
+      }
+      System.out.println("Q2.Which of the following is not a Java features?");
+      System.out.println("1. Use of pointers  III");
+      System.out.println("2. Dynamic III");
+      System.out.print("Your Option >>>");
+      int a = in.nextInt();
+      System.out.println("===========================================");
+      if(a==1)
+      {
+       System.out.println("CONGRATULATIONS!!, YOUR ANSWER IS CORRECT.");
+       System.out.println("===========================================");
+      }
+      else
+      {
+       System.out.println("UNFORTUNATELYYOUR ANSWER IS INCORRECT.");
+       System.out.println("=============================================");
+      }
+      System.out.println("Q3. _____ is used to find and fix bugs in the Java programs.?");
+      System.out.println("1. JVM ");
+      System.out.println("2. JDB");
+      System.out.print("Your Option >>> ");
+      int b= in.nextInt();
+      System.out.println("=================================================");
+      if(b==1)
+      {
+       System.out.println("CONGRATULATIONS!! YOUR ANSWER IS CORRECT.");
+       System.out.println("============================================");
+      }
+      else
+      {
+       System.out.println("UNFORTUNATELY, YOUR ANSWER IS INCORRECT.");
+       System.out.println("===========================================");
+      }
+      System.out.println("Q4. What is the return type of the hashCode() method in the Object class?");
+      System.out.println("1. Long");
+      System.out.println("2. Int.");
+      System.out.print("Your Option >>> ");
+      int c= in.nextInt();
+      System.out.println("===========================================");
+      if(c==2)
+      {
+       System.out.println("CONGRATULATIONS!! YOUR ANSWER IS CORRECT.");
+       System.out.println("============================================");
+      }
+      else
+      {
+       System.out.println("UNFORTUNATELY YOUR ANSWER IS INCORRECT.");
+       System.out.println("========================================");
+      }
+      System.out.println("Q5. In which process, a local variable has the same name as one of the instance variables?");
+      System.out.println("1. Variable shadowing");
+      System.out.println("2. Abstraction");
+      System.out.print("Your Option >>> ");
+      int d = in.nextInt();
+      System.out.println("======================================================");
+      if(d==1)
+      {
+       System.out.println("CONGRATULATIONS!! YOUR ANSWER IS CORRECT.");
+       System.out.println("==========================================");
+      }
+      else
+      {
+       System.out.println("=============================================");
+      }
+        System.out.println("Thank you for playing the quiz game which I had created!!");
+        System.out.println("If you have answered majority(70%-100%) questions right, then dial the number 9123456789 to take your prize.");
+        System.out.println("The prize is =>>> ₹10000 cash reward.");
+        System.out.println("Dial this number immediately.");
+    }
+    else if(ch==2)
+    {
+      System.out.println("Okay, well it's your wish why you don't want to play.");
+      System.out.println("Enjoy your day!!!");
+    }
+  }
+}
